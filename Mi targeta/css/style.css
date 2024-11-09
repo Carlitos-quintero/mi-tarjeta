@@ -1,0 +1,90 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #10c92fc7;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedor {
+    width: 100%;
+    height: auto;
+}
+
+.targeta {
+    background-image: url(../assets/istockphoto-1299678343-1024x1024.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Nombre del usuario */
+h1 {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+}
+/* Descripción */
+p {
+color: #bbb;
+margin-bottom: 20px;
+}
+.SobreMi{
+    color: white;
+    font-weight:900;
+}
+.enlaces a{
+display: block;
+margin: 10px 0;
+padding: 15px;
+border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.3);
+color: white;
+text-decoration: none;
+transition:  background-color 0.3s;
+}
+.enlaces a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contenth1{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px; 
+    padding: 20px; 
+}
+h1:hover::after {
+    content: "Cuando el viento susurra en las hojas y el río murmura en secreto su canción, sabes que hay una armonía que sólo los atentos pueden escuchar. Bajo la sombra de un roble y el abrazo del musgo, espera una verdad que la prisa del mundo no logra ver. Aquí, en el latir de la tierra, se guarda un secreto, un susurro del tiempo mismo, que solo revelará a quien se detenga, respire y se funda con el silencio. 🌿";
+    color: #cc7116;
+    font-size: 0.9em;
+}
+.redes a {
+    display: inline-block;
+    margin: 10px 13px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+.redes a:hover {
+    transform: scale(1.5);
+}
+
